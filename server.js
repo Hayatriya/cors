@@ -33,7 +33,7 @@ const app = express();
 const PORT = 3000;
 
 // Define your website's origin
-const allowedOrigin = 'file:///C:/Users/TEMP.LAPTOP-F9FPJNRE/Desktop/CORS/index.html/127.0.0.1 mywebsite.com';
+const allowedOrigin = 'https://hayatriya.github.io/cors/';
 
 // Enable CORS with specific origin
 app.use(cors({
