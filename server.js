@@ -15,7 +15,7 @@ const data = [
 
 // Endpoint to provide data
 app.get('/data', (req, res) => {
-    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Origin', 'https://hayatriya.github.io/cors/');
     res.json(data);
 });
 
